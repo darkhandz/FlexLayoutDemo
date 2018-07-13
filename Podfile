@@ -10,6 +10,6 @@ target 'FlexLayoutDemo1' do
 
 
   # Debug only
-  pod 'Reveal-SDK', '4', :configurations => ['Debug']
+  # pod 'Reveal-SDK', '4', :configurations => ['Debug']
 
 end
