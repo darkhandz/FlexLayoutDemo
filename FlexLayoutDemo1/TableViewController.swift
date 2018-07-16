@@ -17,16 +17,30 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        switch indexPath.row {
+        switch indexPath.section {
         case 0:
-            navigationController?.pushViewController(IntroViewController(), animated: true)
+            switch indexPath.row {
+            case 0: // 官方Demo界面
+                navigationController?.pushViewController(IntroViewController(), animated: true)
+            case 1: // 淘宝搜索标签界面
+                navigationController?.pushViewController(TaobaoSearchVC(), animated: true)
+            case 2: // 百词斩登录界面
+                navigationController?.pushViewController(BCZViewController(), animated: true)
+            default:
+                break
+            }
         case 1:
-            navigationController?.pushViewController(TaobaoSearchVC(), animated: true)
-        case 2:
-            navigationController?.pushViewController(BCZViewController(), animated: true)
+            switch indexPath.row {
+            case 0: // 小说简介
+                navigationController?.pushViewController(NovelSummaryVC(), animated: true)
+     
+            default:
+                break
+            }
         default:
             break
         }
+        
     }
 
 }

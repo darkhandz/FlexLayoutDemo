@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70292FAF20F890C7008D8116 /* NovelSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70292FAE20F890C7008D8116 /* NovelSummaryVC.swift */; };
 		7099432420F870A700028FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099432320F870A700028FC5 /* AppDelegate.swift */; };
 		7099432920F870A700028FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7099432720F870A700028FC5 /* Main.storyboard */; };
 		7099432B20F870A900028FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7099432A20F870A900028FC5 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		32B04B33AD8C665D5D6A1943 /* Pods-FlexLayoutDemo1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayoutDemo1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexLayoutDemo1/Pods-FlexLayoutDemo1.debug.xcconfig"; sourceTree = "<group>"; };
 		4A467560ED50C3B071122EA0 /* Pods_FlexLayoutDemo1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexLayoutDemo1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF12C789CF5226674579F9C /* Pods-FlexLayoutDemo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayoutDemo1.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexLayoutDemo1/Pods-FlexLayoutDemo1.release.xcconfig"; sourceTree = "<group>"; };
+		70292FAE20F890C7008D8116 /* NovelSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovelSummaryVC.swift; sourceTree = "<group>"; };
 		7099432020F870A700028FC5 /* FlexLayoutDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayoutDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7099432320F870A700028FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7099432820F870A700028FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +48,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70292FAD20F88FEC008D8116 /* Second(第二篇) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Second(第二篇)";
+			sourceTree = "<group>";
+		};
+		706B5EC020FCA1E200019E1E /* Third(第三篇) */ = {
+			isa = PBXGroup;
+			children = (
+				70292FAE20F890C7008D8116 /* NovelSummaryVC.swift */,
+			);
+			path = "Third(第三篇)";
+			sourceTree = "<group>";
+		};
 		7099431720F870A700028FC5 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +84,8 @@
 		7099432220F870A700028FC5 /* FlexLayoutDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				706B5EC020FCA1E200019E1E /* Third(第三篇) */,
+				70292FAD20F88FEC008D8116 /* Second(第二篇) */,
 				7099433E20F876C500028FC5 /* First(第一篇) */,
 				7099433520F870B200028FC5 /* Resource */,
 				7099432720F870A700028FC5 /* Main.storyboard */,
@@ -225,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70292FAF20F890C7008D8116 /* NovelSummaryVC.swift in Sources */,
 				7099433D20F8751D00028FC5 /* BCZViewController.swift in Sources */,
 				7099433B20F874D400028FC5 /* TaobaoSearchVC.swift in Sources */,
 				7099433920F8732B00028FC5 /* IntroViewController.swift in Sources */,
@@ -376,7 +396,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/FlexLayoutDemo1/Resource/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.darkhandz.FlexLayoutDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -391,7 +414,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/FlexLayoutDemo1/Resource/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.darkhandz.FlexLayoutDemo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
