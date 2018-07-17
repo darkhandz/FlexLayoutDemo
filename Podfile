@@ -7,7 +7,7 @@ target 'FlexLayoutDemo1' do
 
   # Pods for FlexLayoutDemo1
   pod 'FlexLayout', '1.3.9'
-
+  pod 'PinLayout', '1.7.9'
 
   # Debug only
   # pod 'Reveal-SDK', '4', :configurations => ['Debug']

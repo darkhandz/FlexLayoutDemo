@@ -33,10 +33,17 @@ class TableViewController: UITableViewController {
             switch indexPath.row {
             case 0: // 小说简介
                 navigationController?.pushViewController(NovelSummaryVC(), animated: true)
-     
             default:
                 break
             }
+        case 2:
+            switch indexPath.row {
+            case 0: // 我的钱包
+                navigationController?.pushViewController(MyWalletVC(), animated: true)
+            default:
+                break
+            }
+        
         default:
             break
         }

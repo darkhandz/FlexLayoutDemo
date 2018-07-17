@@ -17,6 +17,8 @@ class NovelSummaryVC: UIViewController {
     fileprivate let bgImgV = UIImageView(image: UIImage(named: "novel_bg"))
     /// 封面图
     fileprivate let coverImgV = UIImageView()
+    /// 大V图标
+    fileprivate let verifiedImgV = UIImageView(image: UIImage(named: "novel_v"))
     /// 浅红色view
     fileprivate let descContainer = UIView()
     /// 一句话描述作品
@@ -68,8 +70,11 @@ class NovelSummaryVC: UIViewController {
                 flex.addItem(bgImgV).position(.absolute).left(0).top(0).width(100%).height(100%)
                 // 浅绿色盒子, 横向排列子盒子, 距离父盒子(summaryView)左右外边距为15，顶底各12外边距
                 flex.addItem().direction(.row).marginVertical(12).marginHorizontal(15).define { flex in
-                    // 封面图, 右外边距22
-                    flex.addItem(coverImgV).marginRight(22).width(24.6%).aspectRatio(17/23)
+                    flex.addItem().marginRight(22).width(24.6%).aspectRatio(17/23).define { flex in
+                        // 封面图, 右外边距22
+                        flex.addItem(coverImgV)
+                        flex.addItem(verifiedImgV).position(.absolute).right(-5).bottom(-5).size(20)
+                    }
                     // 浅蓝色盒子
                     flex.addItem().justifyContent(.spaceBetween).grow(1).shrink(1).define { flex in
                         flex.addItem(bookNameLabel)
