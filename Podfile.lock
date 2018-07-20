@@ -1,20 +1,24 @@
 PODS:
   - FlexLayout (1.3.9)
+  - Kingfisher (4.8.0)
   - PinLayout (1.7.9)
 
 DEPENDENCIES:
   - FlexLayout (= 1.3.9)
+  - Kingfisher (~> 4.8.0)
   - PinLayout (= 1.7.9)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FlexLayout
+    - Kingfisher
     - PinLayout
 
 SPEC CHECKSUMS:
   FlexLayout: dbe4b2da72ee63d7145cf32bb5bfba375aeeb9e6
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
   PinLayout: 21ce87a865407a7a3c8a38a326611c476095fedf
 
-PODFILE CHECKSUM: f86e2a0a6324d7070cb40b538e2a2b8f23017016
+PODFILE CHECKSUM: ccf85b7673a459c331bad6790724d0bb0fe19949
 
 COCOAPODS: 1.5.3

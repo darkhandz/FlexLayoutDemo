@@ -43,7 +43,13 @@ class TableViewController: UITableViewController {
             default:
                 break
             }
-        
+        case 3:
+            switch indexPath.row {
+            case 0: // 沸点动态
+                navigationController?.pushViewController(TweetListVC(), animated: true)
+            default:
+                break
+            }
         default:
             break
         }

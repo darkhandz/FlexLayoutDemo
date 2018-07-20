@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		70292FAF20F890C7008D8116 /* NovelSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70292FAE20F890C7008D8116 /* NovelSummaryVC.swift */; };
+		7091DD052100D57400774FE9 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7091DD042100D57400774FE9 /* MD5.swift */; };
 		7099432420F870A700028FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099432320F870A700028FC5 /* AppDelegate.swift */; };
 		7099432920F870A700028FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7099432720F870A700028FC5 /* Main.storyboard */; };
 		7099432B20F870A900028FC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7099432A20F870A900028FC5 /* Assets.xcassets */; };
@@ -18,6 +19,10 @@
 		7099433D20F8751D00028FC5 /* BCZViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7099433C20F8751D00028FC5 /* BCZViewController.swift */; };
 		70F73A0820FDB72200D436CA /* MyWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F73A0720FDB72200D436CA /* MyWalletVC.swift */; };
 		70F73A0A20FDB74100D436CA /* MyWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F73A0920FDB74100D436CA /* MyWalletView.swift */; };
+		70FDFA5920FF905500FAA8FE /* TweetListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FDFA5820FF905500FAA8FE /* TweetListVC.swift */; };
+		70FDFA5B20FF910000FAA8FE /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FDFA5A20FF910000FAA8FE /* TweetCell.swift */; };
+		70FDFA5D20FF9D2200FAA8FE /* tweets.json in Resources */ = {isa = PBXBuildFile; fileRef = 70FDFA5C20FF9D2200FAA8FE /* tweets.json */; };
+		70FDFA6120FF9E2600FAA8FE /* TweetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FDFA6020FF9E2600FAA8FE /* TweetStore.swift */; };
 		B7455DFF84417805C223F461 /* Pods_FlexLayoutDemo1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A467560ED50C3B071122EA0 /* Pods_FlexLayoutDemo1.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +31,7 @@
 		4A467560ED50C3B071122EA0 /* Pods_FlexLayoutDemo1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexLayoutDemo1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BF12C789CF5226674579F9C /* Pods-FlexLayoutDemo1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayoutDemo1.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexLayoutDemo1/Pods-FlexLayoutDemo1.release.xcconfig"; sourceTree = "<group>"; };
 		70292FAE20F890C7008D8116 /* NovelSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovelSummaryVC.swift; sourceTree = "<group>"; };
+		7091DD042100D57400774FE9 /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 		7099432020F870A700028FC5 /* FlexLayoutDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayoutDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7099432320F870A700028FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7099432820F870A700028FC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +44,10 @@
 		7099433C20F8751D00028FC5 /* BCZViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCZViewController.swift; sourceTree = "<group>"; };
 		70F73A0720FDB72200D436CA /* MyWalletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletVC.swift; sourceTree = "<group>"; };
 		70F73A0920FDB74100D436CA /* MyWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWalletView.swift; sourceTree = "<group>"; };
+		70FDFA5820FF905500FAA8FE /* TweetListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetListVC.swift; sourceTree = "<group>"; };
+		70FDFA5A20FF910000FAA8FE /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		70FDFA5C20FF9D2200FAA8FE /* tweets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tweets.json; sourceTree = "<group>"; };
+		70FDFA6020FF9E2600FAA8FE /* TweetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +100,7 @@
 		7099432220F870A700028FC5 /* FlexLayoutDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				70FDFA5520FF8FCF00FAA8FE /* Fourth(第四篇) */,
 				706B5EC020FCA1E200019E1E /* Third(第三篇) */,
 				70292FAD20F88FEC008D8116 /* Second(第二篇) */,
 				7099433E20F876C500028FC5 /* First(第一篇) */,
@@ -119,6 +130,18 @@
 				7099433C20F8751D00028FC5 /* BCZViewController.swift */,
 			);
 			path = "First(第一篇)";
+			sourceTree = "<group>";
+		};
+		70FDFA5520FF8FCF00FAA8FE /* Fourth(第四篇) */ = {
+			isa = PBXGroup;
+			children = (
+				70FDFA5820FF905500FAA8FE /* TweetListVC.swift */,
+				70FDFA5A20FF910000FAA8FE /* TweetCell.swift */,
+				70FDFA5C20FF9D2200FAA8FE /* tweets.json */,
+				70FDFA6020FF9E2600FAA8FE /* TweetStore.swift */,
+				7091DD042100D57400774FE9 /* MD5.swift */,
+			);
+			path = "Fourth(第四篇)";
 			sourceTree = "<group>";
 		};
 		9D7780A952A706B7D725BEE6 /* Pods */ = {
@@ -201,6 +224,7 @@
 				7099432E20F870A900028FC5 /* LaunchScreen.storyboard in Resources */,
 				7099432B20F870A900028FC5 /* Assets.xcassets in Resources */,
 				7099432920F870A700028FC5 /* Main.storyboard in Resources */,
+				70FDFA5D20FF9D2200FAA8FE /* tweets.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,11 +257,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FlexLayoutDemo1/Pods-FlexLayoutDemo1-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinLayout.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,11 +279,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				70292FAF20F890C7008D8116 /* NovelSummaryVC.swift in Sources */,
+				70FDFA6120FF9E2600FAA8FE /* TweetStore.swift in Sources */,
+				7091DD052100D57400774FE9 /* MD5.swift in Sources */,
 				7099433D20F8751D00028FC5 /* BCZViewController.swift in Sources */,
 				7099433B20F874D400028FC5 /* TaobaoSearchVC.swift in Sources */,
 				7099433920F8732B00028FC5 /* IntroViewController.swift in Sources */,
+				70FDFA5920FF905500FAA8FE /* TweetListVC.swift in Sources */,
 				7099432420F870A700028FC5 /* AppDelegate.swift in Sources */,
 				7099433720F872A200028FC5 /* TableViewController.swift in Sources */,
+				70FDFA5B20FF910000FAA8FE /* TweetCell.swift in Sources */,
 				70F73A0820FDB72200D436CA /* MyWalletVC.swift in Sources */,
 				70F73A0A20FDB74100D436CA /* MyWalletView.swift in Sources */,
 			);
@@ -405,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HDW4WPZK3;
 				INFOPLIST_FILE = "$(SRCROOT)/FlexLayoutDemo1/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darkhandz.FlexLayoutDemo1;
@@ -420,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8HDW4WPZK3;
 				INFOPLIST_FILE = "$(SRCROOT)/FlexLayoutDemo1/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.darkhandz.FlexLayoutDemo1;
